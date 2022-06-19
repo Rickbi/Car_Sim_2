@@ -64,8 +64,8 @@ class Car_2(Car_1):
         self.brake = -acc*0.8
 
         self.drift_speed = 4
-        self.traction_slow = 1#0.9
-        self.traction_fast = 1#0.0001
+        self.traction_slow = 0.9
+        self.traction_fast = 0.0001
     
     def key_input(self):
         keys = pygame.key.get_pressed()
